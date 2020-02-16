@@ -2,26 +2,8 @@ import React from 'react';
 
 const EntityExtraction = () => {
   return(
-    <div className="tc">
-      <p className='f4 pa2 ma2'>
-        text: ACME corp was founded by John Smith in Chicago<br/>
-        language: en<br/>
-        entities:<br/>
-          location:<br/>
-            Chicago
-
-          keyword":<br/>
-            John,
-            corp,
-            Smith,
-            Chicago,
-            ACME
-
-          organization:<br/>
-            ACME
-
-          person:<br/>
-            John Smith
+    <div className="tl ma2 pa2">
+      <p id='output' className='f4 pa10 ma2'>
       </p>
     </div>
   );
